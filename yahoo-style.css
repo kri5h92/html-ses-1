@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+img{
+  width: 115px;
+  height: 35px;
+  padding-left: 50px;
+  padding-top: 28px;
+}
+.help{
+  font-size: 13px;
+  text-align: justify;
+}
+body{
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+}
+.img2{
+  padding-top: 130px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+}
+.signin{
+  padding-top: 45px;
+  text-align: center;
+  font-style: bold;
+  font-size: 22px;
+}
+.text{
+  font-size: 11px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.desc{
+  padding-top: 160px;
+  font-size: 20px;
+  text-align: left;
+}
+form,.desc{
+  width:50%;
+}
+form{
+  height: 300px;
+  margin-left:50px;
+  width: 200px;
+  padding-top: 0px;
+  border-width: 2px;
+  border-color: lightgray;
+}
+label{
+  font-size: 10px;
+  color: #188fff;
+}
+.email{
+  margin:20px;
+  margin-top: 30px;
+  width: 200px;
+  height:20px;
+  margin-left: 0px;
+  outline: 0px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-width: 2px;
+  border-color: lightgray
+}
+.next{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color: white;
+  height: 30px;
+  width: 200px;
+  background: #188fff;
+  border:#188fff;
+
+}
+.next1{
+  margin-top: 20px;
+  margin-left: 0px;
+  border-radius: 10px;
+  color: #188fff;
+  height: 30px;
+  width: 200px;
+  background: white;
+  border-color: #188fff;
+  border-width: 2px;
+
+  outline: 0px;
+}
+.forgotlink{
+  padding-top: 20px;
+  font-size: 10px;
+  margin:20px auto;
+  text-align: right;
+}
