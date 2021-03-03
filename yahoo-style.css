@@ -41,11 +41,12 @@ body{
   text-align: left;
 }
 form,.desc{
-  width:50%;
+  width: 80%;
 }
 form{
   height: 300px;
   margin-left:50px;
+  margin-right: 200px;
   width: 200px;
   padding-top: 0px;
   border-width: 2px;
@@ -98,4 +99,23 @@ label{
   font-size: 10px;
   margin:20px auto;
   text-align: right;
+}
+
+@media only screen and (max-width: 500px) {
+  form,.desc{
+    width:80%;
+  }
+  body{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column ;
+  }
+  .text{
+    text-align: left;
+    margin-left: 35px;
+  }
+  .signin{
+    text-align: left;
+    margin-left: 60px;
+  }
 }
