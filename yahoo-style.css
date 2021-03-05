@@ -12,13 +12,14 @@ img{
 .help{
   font-size: 13px;
   text-align: right;
-  padding-right: 20px;
+  padding-right: 35px;
 }
 body{
   background: #fff;
 }
 .img2{
-  padding-top: 130px;
+  padding-top: 50px;
+  padding-right: 45px;
   width: 100px;
   height: 30px;
   text-align: center;
@@ -35,21 +36,21 @@ body{
   text-align: center;
 }
 .desc{
-  padding-top: 160px;
+  padding-top: 100px;
   font-size: 20px;
   text-align: left;
+  margin-left: 100px;
 }
-form,.desc{
-  width: 80%;
-}
+
 form{
-  height: 300px;
-  margin-left:50px;
-  margin-right: 200px;
-  width: 200px;
+  width: 320px;
+  margin: 40px;
   padding-top: 0px;
-  border-width: 2px;
+  margin-right: 150px;
+  border: 1px solid black;
+  border-radius: 5px;
   border-color: lightgray;
+  text-align: center;
 }
 label{
   font-size: 10px;
@@ -60,7 +61,6 @@ label{
   margin-top: 30px;
   width: 200px;
   height:20px;
-  margin-left: 0px;
   outline: 0px;
   border-top: 0px;
   border-left: 0px;
@@ -83,6 +83,7 @@ label{
 .next1{
   margin-top: 20px;
   margin-left: 0px;
+  margin-bottom: 40px;
   border-radius: 10px;
   color: #188fff;
   height: 30px;
@@ -90,42 +91,44 @@ label{
   background: white;
   border-color: #188fff;
   border-width: 2px;
-
   outline: 0px;
 }
 .forgotlink{
+  padding-left: 20px;
   padding-top: 20px;
   font-size: 10px;
-  margin:20px auto;
+  margin-top:20px;
   text-align: right;
 }
 .d{
+display: flex;
+flex-direction: column;
+margin-right: 20px;
+}
+.di{
   display: flex;
   flex-direction: row;
+  width:100%;
+
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   form,.desc{
     width:80%;
     padding-top: 40px;
+
   }
-  .d{
+  .di{
     display: flex;
     flex-direction: column ;
     width: 100%;
   }
-  .text{
-    text-align: left;
-    margin-left: 35px;
-  }
-  .signin{
-    text-align: left;
-    margin-left: 60px;
-  }
   .desc{
+    margin: 20px;
+    padding: 30px;
     font-size: 18px;
   }
   .img2{
-    padding-top: 40px;
+    padding-right: 45px;
   }
   .help{
     text-align: right;
